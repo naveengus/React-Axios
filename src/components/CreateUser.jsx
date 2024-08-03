@@ -68,6 +68,7 @@ function CreateUser() {
                 setUsername(e.target.value);
               }}
               placeholder="Enter UserName"
+              required
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -78,6 +79,7 @@ function CreateUser() {
                 setEmail(e.target.value);
               }}
               placeholder="Enter email"
+              required
             />
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.

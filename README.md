@@ -82,3 +82,5 @@ The `Home` component fetches and displays user data in a card format. It uses th
 - [React Hot Toast](https://react-hot-toast.com/)
 
 # website
+
+- [preview](https://react-axios-blogs.netlify.app/)
