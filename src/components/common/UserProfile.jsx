@@ -17,7 +17,7 @@ function UserProfile({ name, username, email, phone, website, id }) {
         </div>
         <Card.Body className="card-body">
           <Card.Title>{name ? name : "Title Goes Here"}</Card.Title>
-          <Card.Text>{username ? username : dummyText}</Card.Text>
+          <Card.Text>{username ? username : "dummyText"}</Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
           <ListGroup.Item>
