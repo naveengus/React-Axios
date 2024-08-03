@@ -1,0 +1,125 @@
+.text-decoration-none {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}
+.topbox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mr-10 {
+  margin-right: 10px;
+}
+
+.active {
+  color: rgb(20, 20, 20);
+  border-bottom: 2px solid rgb(23, 24, 23);
+  margin-bottom: -5px;
+}
+.full-form {
+  margin: 30px 10% 30px 10%;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 30px;
+  background-color: rgb(0, 255, 255, 0.5);
+}
+.dash-container {
+  margin: 30px 10% 30px 10%;
+}
+.table button {
+  margin-left: 10px;
+}
+.card-box {
+  /* border: 2px solid black; */
+  border-radius: 50px;
+  background-color: rgb(204, 204, 65);
+}
+.cards {
+  width: 300px;
+  /* text-align: center; */
+  padding: 10px;
+  /* border: 2px solid black; */
+  border-radius: 50px;
+  margin: 10px auto 10px auto;
+  background-color: rgb(226, 226, 29);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardimg {
+  width: 100px;
+  height: 170px;
+  border-radius: 40%;
+  /* border: 1px solid black; */
+}
+.card-body {
+  text-align: center;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px 10% 20px 10%;
+}
+.submit {
+  margin-right: 10px;
+}
+
+.userlogo {
+  margin-right: 5px;
+  margin-top: -4px;
+  color: rgb(201, 118, 10);
+}
+
+.topicon {
+  margin-top: -4px;
+  margin-right: 5px;
+}
+.brand {
+  color: rgb(201, 118, 10);
+}
+@media only screen and (max-width: 500px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 10% 20px 10%;
+    font-size: small;
+  }
+  .cardimg {
+    width: 100px;
+    height: 170px;
+    border-radius: 40%;
+    /* border: 1px solid black; */
+  }
+  .active {
+    color: rgb(20, 20, 20);
+    border: none;
+    /* border-bottom: 2px solid rgb(23, 24, 23); */
+    margin-bottom: -1px;
+  }
+  .dash-container {
+    margin: 30px 5% 30px 5%;
+    font-size: xx-small;
+  }
+  .dash-container button {
+    font-size: 8px;
+  }
+  .full-form {
+    margin: 30px 5% 30px 5%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding: 30px;
+    font-size: medium;
+    background-color: rgb(0, 255, 255, 0.5);
+  }
+  .table td {
+    font-size: 8px;
+  }
+  .table button {
+    width: 35px;
+    text-align: center;
+    margin: 2px;
+    height: 15px;
+    text-indent: -5px;
+    padding-bottom: 18px;
+  }
+}
